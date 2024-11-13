@@ -23,5 +23,5 @@ jobs:
       run: mvn -B package --file pom.xml 
     - name: Run application
       env:
-        USER_NAME: "Rafaela"
+        USER_NAME: "Maria Júlia"
       run: mvn exec:java -Dexec.mainClass="App"
