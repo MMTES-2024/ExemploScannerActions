@@ -7,4 +7,4 @@ MyApp
 ├── pom.xml  
 └── .github  
     └── workflows  
-        └── java-ci.yml   
+        └── maven.yml   
