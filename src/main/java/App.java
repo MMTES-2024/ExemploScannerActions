@@ -1,12 +1,11 @@
-import java.util.Scanner;
-
 public class App {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Informe seu nome:");
-        String name = scanner.nextLine();
-        System.out.println("Olá, " + name + "!");
-        scanner.close();
+        String name = System.getenv("USER_NAME");
+        if (name == null || name.isEmpty()) {
+            System.out.println("No name provided.");
+        } else {
+            System.out.println("Hello, " + name + "!");
+        }
     }
 }
 
