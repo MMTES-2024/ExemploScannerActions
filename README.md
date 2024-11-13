@@ -2,10 +2,8 @@
 MyApp  
 ├── src  
 │   └── main  
-│       └── java  
-│           └── com  
-│               └── example  
-│                   └── App.java  
+│       └── java   
+│           └── App.java  
 ├── pom.xml  
 └── .github  
     └── workflows  
